@@ -2,7 +2,7 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
-import { Search, Menu, X, Bell, User } from "lucide-react";
+import { Search, Menu, X, Bell, User, Info } from "lucide-react";
 
 const Navigation = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -23,6 +23,7 @@ const Navigation = () => {
               <Link to="/beginner" className="px-3 py-2 rounded-md text-sm font-medium text-gray-800 hover:bg-gray-100">For Beginners</Link>
               <Link to="/investor" className="px-3 py-2 rounded-md text-sm font-medium text-gray-800 hover:bg-gray-100">For Investors</Link>
               <Link to="/trader" className="px-3 py-2 rounded-md text-sm font-medium text-gray-800 hover:bg-gray-100">For Traders</Link>
+              <Link to="/about" className="px-3 py-2 rounded-md text-sm font-medium text-gray-800 hover:bg-gray-100">About Us</Link>
             </div>
           </div>
 
@@ -76,6 +77,7 @@ const Navigation = () => {
           <Link to="/beginner" className="block px-3 py-2 rounded-md text-base font-medium text-gray-800 hover:bg-gray-100">For Beginners</Link>
           <Link to="/investor" className="block px-3 py-2 rounded-md text-base font-medium text-gray-800 hover:bg-gray-100">For Investors</Link>
           <Link to="/trader" className="block px-3 py-2 rounded-md text-base font-medium text-gray-800 hover:bg-gray-100">For Traders</Link>
+          <Link to="/about" className="block px-3 py-2 rounded-md text-base font-medium text-gray-800 hover:bg-gray-100">About Us</Link>
           
           <div className="pt-4 pb-3 border-t border-gray-200 dark:border-gray-700">
             <div className="mt-3 px-2 space-y-1">
