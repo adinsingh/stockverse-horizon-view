@@ -29,7 +29,7 @@ const AboutMe = () => {
                 <img
                   src="/images/aditya.jpg"
                   alt="Aditya Narayan Singh"
-                  className="h-32 w-32 rounded-full object-cover"
+                  className="w-full h-full object-cover"
                 />
               </div>
               <CardContent className="p-6">
@@ -39,11 +39,11 @@ const AboutMe = () => {
                 <div className="flex flex-col space-y-2">
                   <Button variant="outline" className="justify-start">
                     <Mail className="h-4 w-4 mr-2" />
-                    aditya@investzen.com
+                    aditya@gmail.com
                   </Button>
                   <Button variant="outline" className="justify-start">
                     <Linkedin className="h-4 w-4 mr-2" />
-                    linkedin.com/aditya
+                    linkedin.com/aditya-narayan
                   </Button>
                   <Button variant="outline" className="justify-start">
                     <Twitter className="h-4 w-4 mr-2" />
@@ -59,21 +59,21 @@ const AboutMe = () => {
                 <img
                   src="/images/ankit.jpg"
                   alt="Ankit Singhania"
-                  className="h-32 w-32 rounded-full object-cover"
+                  className="w-full h-full object-cover"
                 />
               </div>
               <CardContent className="p-6">
                 <h3 className="text-xl font-bold mb-2">Ankit Singhania</h3>
-                <p className="text-gray-600 mb-4">Co-Founder & Tech Lead</p>
+                <p className="text-gray-600 mb-4">Founder & Tech Lead</p>
 
                 <div className="flex flex-col space-y-2">
                   <Button variant="outline" className="justify-start">
                     <Mail className="h-4 w-4 mr-2" />
-                    ankit@investzen.com
+                    ankitsinghaniaaks@gmail.com
                   </Button>
                   <Button variant="outline" className="justify-start">
                     <Linkedin className="h-4 w-4 mr-2" />
-                    linkedin.com/ankit
+                    linkedin.com/ankit-singhania-aks
                   </Button>
                   <Button variant="outline" className="justify-start">
                     <Twitter className="h-4 w-4 mr-2" />
