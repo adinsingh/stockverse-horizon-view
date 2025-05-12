@@ -9,7 +9,9 @@ const Dashboard = () => {
       <Navigation />
       
       <main className="flex-grow bg-gray-50">
-        <DashboardComponent />
+        <div className="max-w-7xl mx-auto">
+          <DashboardComponent />
+        </div>
       </main>
       
       <Footer />

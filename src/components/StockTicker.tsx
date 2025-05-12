@@ -42,19 +42,19 @@ const StockTicker = () => {
   }, [stocks]);
 
   return (
-    <div className="ticker-container bg-finance-navy text-white py-2 overflow-hidden">
+    <div className="ticker-container bg-teal-700 text-white py-2 overflow-hidden">
       <div className="ticker-content flex items-center">
         {/* Duplicate the content to make the loop smooth */}
         {[...stocks, ...stocks].map((stock, index) => (
           <div
             key={`${stock.symbol}-${index}`}
-            className="flex items-center mx-4"
+            className="flex items-center mx-4 transition-all duration-300 hover:scale-105"
           >
             <span className="font-semibold">{stock.symbol}</span>
             <span className="mx-1">${stock.price.toFixed(2)}</span>
             <span 
               className={`ml-1 ${
-                stock.change >= 0 ? 'text-finance-green' : 'text-finance-red'
+                stock.change >= 0 ? 'text-green-300' : 'text-red-300'
               }`}
             >
               {stock.change >= 0 ? '+' : ''}{stock.change.toFixed(2)} ({stock.change >= 0 ? '+' : ''}{stock.changePercent.toFixed(2)}%)
